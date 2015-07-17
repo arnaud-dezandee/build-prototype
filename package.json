@@ -1,0 +1,32 @@
+{
+  "name": "build-prototype",
+  "version": "1.0.0",
+  "description": "Build object with all files in a directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adezandee/build-prototype.git"
+  },
+  "keywords": [
+    "build",
+    "prototype",
+    "object",
+    "directory",
+    "dir"
+  ],
+  "author": "Arnaud Dezandee <dezandee.arnaud@gmail.com> (https://github.com/Adezandee)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Adezandee/build-prototype/issues"
+  },
+  "homepage": "https://github.com/Adezandee/build-prototype#readme",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
