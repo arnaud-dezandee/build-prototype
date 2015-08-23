@@ -24,7 +24,7 @@ module.exports = function hello(){
 var build = require('build-prototype');
 
 var myObj = {}
-build(myObj, './methods')
+build(myObj, path.resolve('./methods'))
 
 myObj.hello() === 'hello' // True
 ```

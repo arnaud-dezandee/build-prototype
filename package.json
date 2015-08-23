@@ -1,6 +1,6 @@
 {
   "name": "build-prototype",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Build object with all files in a directory",
   "main": "index.js",
   "scripts": {
@@ -28,5 +28,8 @@
   },
   "devDependencies": {
     "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "path-is-absolute": "^1.0.0"
   }
 }

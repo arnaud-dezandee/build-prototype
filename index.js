@@ -8,10 +8,11 @@
  */
 var fs    = require('fs');
 var path  = require('path');
+var isAbsolute = require('path-is-absolute');
 
 module.exports = function buildPrototype(object, dir) {
-  if (!path.isAbsolute(dir)) {
-    dir = path.resolve(module.parent.filename, '..', dir);
+  if (!isAbsolute(dir)) {
+    throw new Error('Build-prototype require an absolute path');
   }
 
   fs.readdirSync(dir)
